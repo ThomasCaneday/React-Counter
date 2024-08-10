@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: darkgray;
+  display: grid;
+  width: 100%;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+.card-container {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10%;
+  width: 25%;
+  place-self: center;
+}
